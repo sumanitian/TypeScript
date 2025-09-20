@@ -64,17 +64,21 @@ tempEmployee.hello(); // Output: Hello Everyone
 
     1. Implementing interfaces (types vs interface).
 
-    2. Abstract classes vs interfaces.
+    - You can implement interface in a class but you cannot do in type.
+    - Types let you do unions and intersection but interface can let you do.
 
+   
 */
 
 /* 
+    2. Abstract classes vs interfaces.
     If a class can implement an interfaces
 
     What is the point of an abstract class ?
 
+
+    Abstract class can have default implementation as well and interface cannot.
+    
+
 */
 
-/*
-    Abstract class can have default implementation as well and interface cannot.
-*/
