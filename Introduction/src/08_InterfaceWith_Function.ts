@@ -13,6 +13,7 @@ let person: People = {
     age: 23,
     // Define the greet function, which returns a greeting message
     greet: () => {
+        // one problem is i cannot use this.name ->   return "Hi " + this.name; // that is why classes are introduced.
         return "Hi " + person.name; // Concatenate "Hi" with the person's name
     }
 };
